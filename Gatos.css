@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+ .THOR{
+    
+    background-image: linear-gradient(to right,#B38C7A,#65452E,#2D231A, #6E4936);
+    background-attachment: fixed;
+    
+ }
+
+ .BELINHA{
+    background-image: linear-gradient(to right,#453C2D,#766B58,#B0A48A,#EAECEB,#81796C );
+ }
+
+ .CHORÂO{
+    background-image: linear-gradient(to right,#CDCBCC,#72645B,#E6E0DE,#AEA097,#6B5B4C);
+    
+ }
+
+
+ .FLOK{
+   
+ }
+
+
+ a{
+    text-decoration: none;
+    color: black;
+   
+
+ }
+
+ a:hover {
+    text-decoration: underline;
+    
+ }
+ a:active{
+   color: burlywood;
+ }
+

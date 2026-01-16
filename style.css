@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100%; */
+}
+body{
+
+    background-image: linear-gradient(to right,#f1d8c9,#F2C49B);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    
+    background-color: white;
+    height: 720px;
+    max-width:  671px;
+    min-width:280px ;
+    padding: 170px;   
+    margin: auto; 
+    border-radius: 10px;
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.404) ;
+}
+h1 {
+    
+    text-decoration:underline;
+    color:#A66844 ;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.582);
+}
+
+#fotos{
+    background-color: #f2c49b86;
+    
+   
+}
+#fotos:hover{
+    color: #75614f;
+}   
+ div> p{
+display: none;
+padding: 30px;
+border: 1px solid black;
+
+ }
+ div:hover > p {
+    display: block;
+    
+      
+ }
+
+/*
+esconder o texto dentro de um parágrafo filho + display: none;
+
+div> p{
+display: none;
+padding: 30px;
+border: 1px solid black;
+ }
+
+*/
+
+/*
+ aparecer o texto com a tag 
+ hover + display: block;
+
+ div:hover > p {
+    display: block;
+*/
